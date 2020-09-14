@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./proj.component.css']
 })
 export class ProjComponent implements OnInit {
-
+  titulo: string = 'projeto';
   constructor() { }
+
+  imgUrl: string = '/assets/eu.jpg';
 
   ngOnInit(): void {
   }
